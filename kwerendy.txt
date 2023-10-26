@@ -1,0 +1,4 @@
+Kwerenda 1: SELECT id,imie,nazwisko,adres,miasto FROM pracownicy where id=1;
+Kwerenda 2: SELECT imie, nazwisko FROM pracownicy WHERE czyRODO=0;
+Kwerenda 3: SELECT id,nazwisko FROM pracownicy WHERE czyBadania=0 and YEAR(dataUr) BETWEEN 1970 AND 1979;
+Kwerenda 4: ALTER TABLE pracownicy ADD umiejetnosci TEXT;
