@@ -3,6 +3,10 @@ html {
     background-color: antiquewhite;
 }
 
+body {
+    margin: 0;
+}
+
 header {
     background-color: #7B5E57;
     color: white;
@@ -40,6 +44,7 @@ header {
 
 h1 {
     font-weight: 300;
+    margin: 0;
 }
 
 input,
@@ -54,4 +59,9 @@ button {
 input[type=submit]:hover {
     background-color: white;
     color: #7B5E57;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
 }
